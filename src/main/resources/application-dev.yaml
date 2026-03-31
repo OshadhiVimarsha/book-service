@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: book-service
+
+  config:
+    import: "configserver:"
+
+  cloud:
+    config:
+      uri: http://config.platform:9000
